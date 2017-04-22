@@ -10,3 +10,7 @@ Initial release
 ## 0.1.2
 
 * Add .npmignore
+
+## 0.1.3
+
+* Fix repo URL
