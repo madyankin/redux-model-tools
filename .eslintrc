@@ -1,0 +1,18 @@
+{
+  "extends": "airbnb-base",
+  "ecmaFeatures": {
+    "modules": true
+  },
+  "env": {
+    "node": true,
+  },
+  "parser": "babel-eslint",
+  "rules": {
+    "quotes": [2, "single"],
+    "template-curly-spacing": [2, "always"],
+    "max-len": [2, 100, 4],
+    "key-spacing": 0,
+    "no-multi-spaces": 0,
+    "import/no-extraneous-dependencies": 0
+  }
+}
