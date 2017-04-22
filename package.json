@@ -1,6 +1,6 @@
 {
   "name": "redux-model",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Model utils for Redux",
   "main": "index.js",
   "repository": "https://github.com/outpunk/redux-model",
