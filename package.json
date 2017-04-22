@@ -2,7 +2,7 @@
   "name": "redux-model-tools",
   "version": "0.1.0",
   "description": "Model utils for Redux",
-  "main": "index.js",
+  "main": "index.es5.js",
   "repository": "https://github.com/outpunk/redux-model",
   "author": "Alexander Madyankin <alexander@madyankin.name>",
   "license": "MIT",
