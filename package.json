@@ -1,6 +1,6 @@
 {
   "name": "redux-model-tools",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Model utils for Redux",
   "main": "index.es5.js",
   "repository": "https://github.com/outpunk/redux-model",
