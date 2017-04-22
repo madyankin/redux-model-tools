@@ -1,0 +1,13 @@
+node_modules/
+test/
+src/
+
+.babelrc
+.editorconfig
+.eslintrc
+.gitignore
+.travis.yml
+
+model.js
+
+*.sublime-project
