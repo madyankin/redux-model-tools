@@ -7,6 +7,8 @@ Helpers for Redux to reduce its boilerplate.
 </a>
 
 
+## Using
+
 Create namespaced constants:
 
 ```js
