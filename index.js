@@ -9,7 +9,7 @@ export function createConstants(namespace, constants) {
 }
 
 
-export function createActions(constants, actions) {
+export function createActions(constants, actions = {}) {
   const namespacedIdentityActions = reduxActions.createActions(
     {},
     ...Object.values(constants),
