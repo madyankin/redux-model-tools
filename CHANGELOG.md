@@ -1,3 +1,7 @@
+## 0.2.0
+* Added `handleActions` function
+
+
 ## 0.1.4
 * Added default value for the `actions` parameter in `createActions`
 

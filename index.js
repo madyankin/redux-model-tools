@@ -36,3 +36,4 @@ export function createActions(constants, actions = {}) {
   return allActions;
 }
 
+export const handleActions = reduxActions.handleActions;
