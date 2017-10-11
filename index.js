@@ -1,5 +1,10 @@
+import pick from 'just-pick';
 import * as reduxActions from 'redux-actions';
 
+export function makeGetter(stateKey) {
+  return (state, keys) =>
+    pick(state[stateKey], Array.isArray(keys) ? keys : [keys]);
+}
 
 export function createConstants(namespace, constants) {
   return constants.reduce((acc, constant) => {
