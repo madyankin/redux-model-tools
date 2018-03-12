@@ -3,7 +3,7 @@ import * as reduxActions from 'redux-actions';
 
 export function makeGetter(stateKey) {
   return (state, keys) =>
-    pick(state[stateKey], Array.isArray(keys) ? keys : [keys]);
+    state[stateKey] && pick(state[stateKey], Array.isArray(keys) ? keys : [keys]);
 }
 
 export function createConstants(namespace, constants) {
