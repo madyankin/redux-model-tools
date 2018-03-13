@@ -2,8 +2,13 @@ import pick from 'just-pick';
 import * as reduxActions from 'redux-actions';
 
 export function makeGetter(stateKey) {
-  return (state, keys) =>
-    state[stateKey] && pick(state[stateKey], Array.isArray(keys) ? keys : [keys]);
+  return (state, keys) => {
+    if (state[stateKey]) {
+      return pick(state[stateKey], Array.isArray(keys) ? keys : [keys]);
+    }
+    
+    return {};
+  }
 }
 
 export function createConstants(namespace, constants) {
