@@ -1,3 +1,7 @@
+# 0.3.1
+
+- Updated `makeGetter` function to make it safe (by Valery Bugakov, @valerybugakov)
+
 # 0.3.0
 
 - Added `makeGetter` function
